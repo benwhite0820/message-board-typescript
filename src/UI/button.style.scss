@@ -1,0 +1,14 @@
+.all-button{
+    margin:20px 0px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 4px 8px;
+    cursor: pointer;
+    background: rgba(58, 210, 147, 0.927);
+    color: #eee;
+        
+    &:hover{
+        background: rgba(2, 159, 94, 0.927);
+    }
+}

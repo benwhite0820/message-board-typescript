@@ -1,0 +1,16 @@
+.message-container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .chat-list-scroll{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: auto;
+        height:600px;
+    }
+}

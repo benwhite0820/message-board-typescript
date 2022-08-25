@@ -1,0 +1,30 @@
+.typing-area-container{
+    width:40%;
+    padding:10px 20px;
+    border-radius: 10px;
+    border:1px solid #eee;
+    background-color: #eee;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
+    .typing-area-form{
+       display: flex;
+       justify-content: space-evenly;
+
+        .message-input{
+        border: none;
+        font-size: 10px;
+        padding: 5px 2px;
+        border-radius: 2px;
+        width: 50%;
+       
+        &:focus{
+            outline: none;
+            border-bottom: 3px solid rgba(126, 213, 111, 0.8);
+        }
+       }
+       .typing-area-button{
+            margin:0px;
+       }
+    }
+}
